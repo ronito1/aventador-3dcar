@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Velocity GT Elite</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=QNXMW3NgF3oq&format=png" type="image/x-icon">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;800&display=swap" rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="page"
+        class="h-full bg-gradient-to-r from-transparent to-zinc-200/30 bg-zinc-200 text-zinc-900 transition-colors duration-[2000ms] antialiased relative overflow-hidden select-none">
+
+        <div id="loading" class="absolute inset-0 z-50 bg-slate-200/80 flex items-center justify-center">
+            <svg class="animate-spin h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2">
+                    <circle class="opacity-20" cx="12" cy="12" r="11" />
+                    <path d="m23 12c0 6.1-4.9 11-11 11" />
+                </g>
+            </svg>
+        </div>
+
+        <model-viewer class="absolute left-0 top-0 w-full h-full z-30 pointer-events-none"
+            src="https://raw.githubusercontent.com/ramjigeddam/3d/master/Lamborginhi%20Aventador_test.glb"
+            exposure="1.15" shadow-intensity="2.5" camera-orbit="-18deg 78deg 105%"
+            camera-target="auto auto auto"></model-viewer>
+
+        <div class="absolute left-0 top-1/2 -translate-y-1/2 z-0 pointer-events-none">
+            <div class="title opacity-0 text-[clamp(200px,40vh,500px)] font-bold text-zinc-900/5 opacity-0 pointer-events-none flex whitespace-nowrap will-change-transform">
+                <span class="mx-20">VELOCITY</span>
+                <span class="mx-20">VELOCITY</span>
+                <span class="mx-20">VELOCITY</span>
+                <span class="mx-20">VELOCITY</span>
+                <span class="mx-20">VELOCITY</span>
+                <span class="mx-20">VELOCITY</span>
+            </div>
+        </div>
+
+        <div class="swiper w-full h-full absolute left-0 top-0 z-40 opacity-0">
+
+            <div class="swiper-wrapper">
+
+                <section class="swiper-slide w-full h-full flex flex-col justify-end relative p-[5vw]">
+
+                    <div id="inner-1"
+                        class="flex flex-col items-start gap-4 lg:gap-8 w-full sm:w-2/3 lg:w-1/3 3xl:w-1/4 md:text-lg">
+                        <h1 class="text-[clamp(26px,4vw,60px)] leading-none font-light uppercase">
+                            Velocity
+                            <br class="hidden lg:block" />
+                            <span class="font-bold">GT ELITE</span>
+                        </h1>
+
+                        <p>
+                            Unleash the future of driving with our flagship luxury performance vehicle.
+                        </p>
+
+                        <strong class="hidden lg:block">
+                            Starting at 88,85,000
+                        </strong>
+
+                        <div class="flex flex-wrap gap-2">
+                            <a href="#section-2" data-slide-to="1"
+                                class="uppercase px-6 py-3 md:px-12 md:py-4 rounded-full text-xs md:text-base tracking-wider text-zinc-50 bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-800 transition-colors grow text-center">
+                                Discover More
+                            </a>
+                            <a href="#contact" target="_blank" rel="noopener"
+                                class="uppercase px-6 py-3 md:px-12 md:py-4 rounded-full text-xs md:text-base tracking-wider bg-transparent hover:bg-zinc-50/50 active:bg-white transition-colors grow text-center">
+                                Schedule Test Drive
+                            </a>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section
+                    class="swiper-slide w-full h-full flex flex-col items-end justify-end lg:justify-center relative z-50 px-[5vw] py-[5vh]">
+
+                    <div id="inner-2"
+                        class="flex flex-col items-start gap-5 lg:gap-7 w-full sm:w-2/3 lg:w-[21%] 2xl:w-[18%] 3xl:w-[17%] p-[1.8vw] mb-8 lg:mb-0 lg:mr-[5vw] sm:box-content rounded-xl sm:rounded-[2vw] md:text-lg text-zinc-50 bg-neutral-900/20 backdrop-blur-lg">
+                        <h2 class="text-[clamp(22px,3vw,36px)] leading-[110%]">
+                            Engineering Perfection Meets Sustainable Innovation
+                        </h2>
+
+                        <p class="mb-10 lg:mb-7">
+                            Crafted with precision engineering, featuring a revolutionary hybrid powertrain,
+                            state-of-the-art infotainment system, and advanced autonomous driving capabilities.
+                            Welcome to the next generation of automotive excellence.
+                        </p>
+
+                        <a href="#section-3" data-slide-to="2"
+                            class="uppercase px-12 py-4 rounded-full text-xs md:text-base tracking-wider text-zinc-50 bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-800 transition-colors absolute bottom-0 translate-y-1/2">
+                            Configure Yours
+                        </a>
+                    </div>
+
+                </section>
+
+                <section class="swiper-slide w-full h-full flex flex-col items-center relative px-[5vw] py-[5vh]">
+
+                    <div id="inner-3"
+                        class="relative z-50 flex flex-col items-center gap-4 text-white drop-shadow-[0_2px_3px_rgba(0,0,0,0.9)]">
+                        <h4 class="text-[clamp(22px,3vw,36px)]">
+                            Select Finish
+                        </h4>
+                        <p class="text-sm uppercase tracking-[0.3em] text-white/70">
+                            Click The Paint Button!
+                        </p>
+                        <label for="custom-color"
+                            class="flex items-center gap-3 rounded-full border border-white/15 bg-white/10 px-4 py-3 shadow-[0_12px_30px_rgba(0,0,0,0.25)] backdrop-blur-md cursor-pointer transition-transform hover:scale-[1.03]">
+                            <span class="text-xs uppercase tracking-[0.24em] text-white/80">
+                                Custom Paint
+                            </span>
+                            <input id="custom-color" type="color" value="#ffd166"
+                                class="h-12 w-28 cursor-pointer rounded-full border border-white/20 bg-transparent p-1" />
+                        </label>
+                    </div>
+
+                </section>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+        <picture class="absolute left-0 top-1/2 w-full h-full z-0 opacity-0">
+            <img class="w-full h-full object-cover opacity-0"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="Atmospheric background" />
+        </picture>
+
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.6/swiper-bundle.min.js'></script>
+    <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+    <script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
